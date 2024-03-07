@@ -2,16 +2,17 @@
 """
 0-pascal_triangle
 """
+
+
 def pascal_triangle(n):
     """
     0-pascal_triangle
     """
-
     if n <= 0:
         return []
     
-    liste_1 = [] #
-    liste_2 = [] # 
+    liste_1 = []
+    liste_2 = [] 
 
 
     for i in range(n):
