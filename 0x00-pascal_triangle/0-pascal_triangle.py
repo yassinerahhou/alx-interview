@@ -3,7 +3,13 @@
 0-pascal_triangle
 """
 def pascal_triangle(n):
-    # mainList = [ i for i in range (10) ]
+    """
+    0-pascal_triangle
+    """
+
+    if n <= 0:
+        return []
+    
     liste_1 = [] #
     liste_2 = [] # 
 
@@ -19,6 +25,3 @@ def pascal_triangle(n):
             
         liste_1.append(listeP)
     return(liste_1)
-   
-
-    # print (mainList )
