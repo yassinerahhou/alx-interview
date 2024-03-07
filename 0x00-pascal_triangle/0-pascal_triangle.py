@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+
 """
 0-pascal_triangle
 """
+
 
 def pascal_triangle(n):
     """
@@ -9,7 +11,6 @@ def pascal_triangle(n):
     """
     if n <= 0:
         return []
-    
     liste_1 = []
     liste_2 = []
 
