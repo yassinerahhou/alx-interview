@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-    Method that determines the number of minmum operations 
+    Method that determines the number of minmum operations
 """
 
 
